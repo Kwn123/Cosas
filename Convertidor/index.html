@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor</title>
+</head>
+<body>
+    <div><h1>Peso a dolar</h1></div>
+    
+    <div>
+        <div class="containerPrice">
+            <label for="checkOficial">Dolar Oficial</label>
+            <input type="checkbox" value="0" id="checkOficial">
+            <p id="textOficial"></p><br>
+
+            <label for="checkBlue">Dolar Blue</label>
+            <input type="checkbox" value="0" id="checkBlue">
+            <p id="textBlue"></p> <br>
+        
+            <label for="checkCripto">Dolar Cripto</label>
+            <input type="checkbox" value="0" id="checkCripto">
+            <p id="textCripto"></p>
+        </div>
+        <div>
+            <p>Colocar cantidad a convertir</p>
+            <input type="number" id="valueConvert">
+            <button id="button">Convertir</button>
+            <p id="result"></p>
+        </div>
+
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
