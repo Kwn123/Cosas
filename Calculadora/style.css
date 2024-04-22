@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+}
+.containerButtons {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+.screen {
+  text-align: right;
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  outline: none; 
+}
+.buttons {
+  margin-left: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 100%;
+
+}
+.signs {
+  justify-content: center;
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+  width: 100%;
+
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.buttonOthers {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+
+}
+.clear{
+    background-color: brown;
+    color: white;
+}
+.sign{
+    background-color: rgb(65, 156, 126);
+    color: white;
+}
+.total{
+    background-color: rgb(42, 99, 165);
+    color: white;
+}
+.number{
+    background-color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+}
